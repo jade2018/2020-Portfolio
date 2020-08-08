@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1920" height="824" viewBox="0 0 1920 824">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_1257" data-name="Rectangle 1257" width="1920" height="824" transform="translate(3926 334)" fill="#403f3f"/>
+    </clipPath>
+  </defs>
+  <g id="Group_1062" data-name="Group 1062" transform="translate(-3926 -3729)">
+    <rect id="Rectangle_266" data-name="Rectangle 266" width="1920" height="824" transform="translate(3926 3729)" fill="#403f3f"/>
+    <g id="Group_1060" data-name="Group 1060" transform="translate(21275 16925.023)">
+      <rect id="Rectangle_1246" data-name="Rectangle 1246" width="199" height="318" rx="99.5" transform="translate(-16473 -12968)" fill="#ffd640"/>
+      <rect id="Rectangle_1256" data-name="Rectangle 1256" width="108" height="161" rx="54" transform="translate(-16399 -12867)" fill="#a54aff"/>
+      <rect id="Rectangle_1247" data-name="Rectangle 1247" width="67" height="112" rx="29" transform="translate(-16434 -12874) rotate(90)" fill="#a449fd"/>
+      <rect id="Rectangle_1248" data-name="Rectangle 1248" width="10.476" height="31.427" rx="5.238" transform="translate(-16330.829 -12949.569) rotate(-150)" fill="#a54aff"/>
+      <rect id="Rectangle_1249" data-name="Rectangle 1249" width="10.476" height="31.427" rx="5.238" transform="translate(-16323.638 -12942.191) rotate(-124)" fill="#a54aff"/>
+      <path id="Intersection_7" data-name="Intersection 7" d="M0,67V0H10A29,29,0,0,1,39,29v9A29,29,0,0,1,10,67Z" transform="translate(-16473 -12874)" fill="#fcf97a"/>
+      <path id="Intersection_10" data-name="Intersection 10" d="M137.307,29.835a5.238,5.238,0,0,1-1.917-7.155l.928-1.607a99.069,99.069,0,0,1,9.552,4.406l-1.408,2.439a5.235,5.235,0,0,1-7.155,1.917Z" transform="translate(-16472.672 -12982.022)" fill="#fcf97a"/>
+      <path id="Intersection_11" data-name="Intersection 11" d="M146.106,21.916a5.239,5.239,0,0,1,1.414-7.272l1.494-1.008a99.549,99.549,0,0,1,9.518,6.216l-5.155,3.477a5.237,5.237,0,0,1-7.271-1.413Z" transform="translate(-16472.672 -12968.449)" fill="#fcf97a"/>
+    </g>
+    <g id="Group_1055" data-name="Group 1055" transform="translate(9603.725 4956.06) rotate(180)">
+      <path id="Subtraction_33" data-name="Subtraction 33" d="M86.889,0A114.962,114.962,0,0,0,69.378,1.334,107.9,107.9,0,0,0,53.068,5.16a98.5,98.5,0,0,0-14.759,6.053A86.933,86.933,0,0,0,25.449,19.23a74.425,74.425,0,0,0-10.61,9.717A62.9,62.9,0,0,0,6.828,40.1,54.4,54.4,0,0,0,1.765,52.424,50.639,50.639,0,0,0,0,65.656H173.777a50.64,50.64,0,0,0-1.765-13.232A54.4,54.4,0,0,0,166.949,40.1a62.9,62.9,0,0,0-8.011-11.153,74.43,74.43,0,0,0-10.61-9.717,86.937,86.937,0,0,0-12.859-8.017A98.5,98.5,0,0,0,120.709,5.16,107.893,107.893,0,0,0,104.4,1.334,114.96,114.96,0,0,0,86.889,0Z" transform="translate(4623.948 587.087)" fill="#a54aff"/>
+      <path id="Subtraction_34" data-name="Subtraction 34" d="M78.286,59.156a103.579,103.579,0,0,1-15.777-1.2,97.21,97.21,0,0,1-14.7-3.447,88.745,88.745,0,0,1-13.3-5.454,78.325,78.325,0,0,1-11.586-7.223,67.056,67.056,0,0,1-9.559-8.755A56.673,56.673,0,0,1,6.152,23.026a49.013,49.013,0,0,1-4.562-11.1A45.625,45.625,0,0,1,0,0H156.571a45.625,45.625,0,0,1-1.591,11.922,49.013,49.013,0,0,1-4.562,11.1A56.676,56.676,0,0,1,143.2,33.075a67.059,67.059,0,0,1-9.559,8.755,78.328,78.328,0,0,1-11.586,7.223,88.745,88.745,0,0,1-13.3,5.454,97.209,97.209,0,0,1-14.695,3.447A103.577,103.577,0,0,1,78.286,59.156Z" transform="translate(4467.311 652.462)" fill="#ffd640"/>
+    </g>
+  </g>
+</svg>
