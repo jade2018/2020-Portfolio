@@ -916,7 +916,7 @@ footer img {
     text-align: center;
 }
 
-@media (max-width:768px) {
+@media (max-width:1024px) {
     .top-bar {
         padding-bottom: 200px;
         background-attachment: scroll;
@@ -931,7 +931,7 @@ footer img {
     background-position: center center;
 }
 
-@media (max-width:768px) {
+@media (max-width:1024px) {
     .innerpage-top-bar-1 {
         padding-bottom: 200px;
         background-attachment: scroll;
