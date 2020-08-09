@@ -918,6 +918,7 @@ footer img {
 
 @media (max-width:768px) {
     .top-bar {
+        padding-bottom: 200px;
         background-attachment: scroll;
     }
 }
@@ -931,8 +932,10 @@ footer img {
 }
 
 @media (max-width:768px) {
-    .top-bar-1 {
+    .innerpage-top-bar-1 {
+        padding-bottom: 200px;
         background-attachment: scroll;
+
     }
 }
 
@@ -1135,25 +1138,24 @@ textarea:focus {
 }
 
 .to-tu-words {
-    float: left;
-    text-align: center;
-    margin: 100px 0 0 60px;
+    float: right;
+    text-align: left;
+    margin: 100px 0 0 100px;
 
 }
 
 .to-tu-words .item-1 {
-    text-align: left;
+    text-align: right;
 }
 
 .to-tu-words .intro-title {
-    font-size: 40px;
+    font-size: 56px;
     font-weight: 600;
-    padding-left: 90px;
 }
 
 .to-tu-words .intro-subtitle {
     font-family: 'Pathway Gothic One';
-    padding: 20px 0 0 90px;
+    padding: 20px 0 0 0;
     font-size: 16px;
 }
 
@@ -1166,7 +1168,7 @@ textarea:focus {
     font-size: 16px;
     border-radius: 30px;
     text-decoration: none;
-    margin: 50px 0 0 80px;
+    margin: 50px 0 0 0;
 }
 
 .to-tu-words .intro-btn:hover {
@@ -1179,10 +1181,13 @@ textarea:focus {
 
 .intro-animation {
     width: 600px;
-    float: right;
-    padding-left: 2rem;
+    float: left;
     overflow: hidden;
+}
 
+.no-gutters {
+    margin-right: 0;
+    margin-left: 0;
 }
 
 .clearfix:after {
@@ -1304,7 +1309,8 @@ textarea:focus {
 @media(max-width: 1024px) {
     .to-tu-words {
         float: none;
-        margin: 50px 0 0 0;
+        margin: 30px 0 0 0;
+        text-align: center;
     }
 
     .intro-animation {
@@ -1319,10 +1325,12 @@ textarea:focus {
     }
 
     .to-tu-words .intro-title {
+        font-size: 40px;
         padding-left: 0;
     }
 
     .to-tu-words .intro-subtitle {
+
         padding-left: 0;
         font-size: 16px;
     }
