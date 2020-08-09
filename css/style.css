@@ -820,6 +820,7 @@ h5 {
 }
 
 .item-title {
+    font-size: 20px;
     color: #fff;
     letter-spacing: 2px;
 }
@@ -828,10 +829,12 @@ h5 {
     font-size: 14px;
     color: #d8d8d8;
     letter-spacing: 2px;
+    line-height: 2em;
 }
 
 .img-wrapper img {
     width: 100%;
+    margin-bottom: 10px;
 }
 
 /* footer
@@ -1360,7 +1363,6 @@ textarea:focus {
     .to-tu-intro-wrapper {
         width: 360px;
         margin-bottom: 50px;
-        /* text-align: center; */
 
     }
 
@@ -1387,6 +1389,9 @@ textarea:focus {
         display: none;
     }
 
+    .box-logo img {
+        width: 200px;
+    }
 }
 
 @media(max-width:370px) {
@@ -1408,12 +1413,4 @@ textarea:focus {
         font-size: 14px;
         padding-top: 0;
     }
-
-    /* .box-header {
-        width: 320px;
-    } */
-
-    /* .box-logo img {
-        width: 150px;
-    } */
 }
