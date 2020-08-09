@@ -186,7 +186,7 @@ h5 {
     position: absolute;
     top: 0;
     left: 0;
-    background: rgba(255, 255, 255, 0.95);
+    background: rgba(255, 255, 255, 0.96);
     height: 50px;
     width: 100%;
     z-index: 3;
@@ -838,7 +838,7 @@ h5 {
 ==================================================*/
 
 footer {
-    padding: 10px 0;
+    padding: 30px 0;
     text-align: center;
     background: #262626;
 }
@@ -924,15 +924,27 @@ footer img {
 }
 
 .innerpage-top-bar-1 {
+    margin-top: 80px;
     padding: 200px 0 500px;
-    background: url(../img/Graphic-Design/celloes/1.jpg);
+    background: url(../img/Graphic-Design/single-project-1/1.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+}
+
+.innerpage-top-bar-2 {
+    margin-top: 80px;
+    padding: 200px 0 500px;
+    background: url(../img/Graphic-Design/single-project-2/1.jpg);
     background-size: cover;
     background-attachment: fixed;
     background-position: center center;
 }
 
 @media (max-width:1024px) {
-    .innerpage-top-bar-1 {
+
+    .innerpage-top-bar-1,
+    .innerpage-top-bar-2 {
         padding-bottom: 200px;
         background-attachment: scroll;
 
