@@ -1389,6 +1389,30 @@ textarea:focus {
     overflow: hidden;
 }
 
+/* to-tu-intro about
+==================================================*/
+
+.about-animation {
+    width: 500px;
+    float: left;
+    overflow: hidden;
+}
+
+.about-intro {
+    width: 500px;
+    font-family: 'Poppins';
+    float: left;
+    margin: 100px 90px;
+}
+
+.about-intro .inner {
+    font-family: 'arial';
+    line-height: 2em;
+    margin-top: 20px;
+}
+
+
+
 .no-gutters {
     margin-right: 0;
     margin-left: 0;
@@ -1525,6 +1549,7 @@ textarea:focus {
 
     .to-tu-intro-wrapper {
         width: 600px;
+        /* margin-bottom: 180px; */
 
     }
 
@@ -1543,9 +1568,22 @@ textarea:focus {
         margin-left: 0;
     }
 
-    .to-tu-words .item-1 {
-        display: none;
+    .about-animation {
+        display: block;
+        float: none;
+        width: 320px;
+        text-align: center;
+        margin: 30px auto 0 auto;
+
     }
+
+    .about-intro {
+        display: block;
+        float: none;
+        margin: 30px auto 0 auto;
+        text-align: center;
+    }
+
 }
 
 @media(max-width:414px) {
