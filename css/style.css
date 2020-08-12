@@ -1444,7 +1444,7 @@ textarea:focus {
     }
 }
 
-@media(max-width:768px) {
+@media(max-width:991px) {
 
     .about-animation {
         margin: 50px auto 50px;
@@ -1601,7 +1601,6 @@ textarea:focus {
     .to-tu-intro-wrapper {
         width: 600px;
 
-
     }
 
     .to-tu-words .intro-title {
@@ -1626,13 +1625,15 @@ textarea:focus {
 @media(max-width:414px) {
     .to-tu-intro-wrapper {
         width: 360px;
-        margin-bottom: 50px;
+        margin: 100px auto 100px auto;
 
     }
 
     .intro-animation {
         width: 300px;
+
         margin-left: 20px;
+
     }
 
     .to-tu-words .intro-title {
