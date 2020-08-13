@@ -1347,9 +1347,8 @@ textarea:focus {
 }
 
 .to-tu-words {
-    float: right;
     text-align: left;
-    margin: 100px 0 0 100px;
+    margin-top: 100px;
 
 }
 
@@ -1390,20 +1389,8 @@ textarea:focus {
 
 .intro-animation {
     width: 600px;
-    float: left;
-    overflow: hidden;
 }
 
-.no-gutters {
-    margin-right: 0;
-    margin-left: 0;
-}
-
-.clearfix:after {
-    content: "";
-    display: block;
-    clear: both;
-}
 
 
 /* to-tu-intro about
@@ -1587,16 +1574,10 @@ textarea:focus {
 
 @media(max-width: 1024px) {
     .to-tu-words {
-        float: none;
-        margin: 30px 0 0 0;
+        margin-top: 30px;
         text-align: center;
     }
 
-    .intro-animation {
-        float: none;
-        width: 600px;
-        margin-left: 0;
-    }
 
     .to-tu-intro-wrapper {
         width: 600px;
@@ -1605,19 +1586,11 @@ textarea:focus {
 
     .to-tu-words .intro-title {
         font-size: 40px;
-        padding-left: 0;
     }
 
     .to-tu-words .intro-subtitle {
-
-        padding-left: 0;
         font-size: 16px;
     }
-
-    .to-tu-words .intro-btn {
-        margin-left: 0;
-    }
-
 
 
 }
@@ -1631,23 +1604,17 @@ textarea:focus {
 
     .intro-animation {
         width: 300px;
-
-        margin-left: 20px;
+        margin: 0 auto;
 
     }
 
     .to-tu-words .intro-title {
         font-size: 26px;
-        margin-left: 0;
     }
 
-    .to-tu-words .intro-subtitle {
-        margin-left: 0;
-    }
 
     .to-tu-words .intro-btn {
         font-size: 14px;
-        margin: 30px 0 0 0;
     }
 
     .box-primary-nav-trigger .box-menu-text {
@@ -1662,7 +1629,6 @@ textarea:focus {
 @media(max-width:370px) {
     .to-tu-intro-wrapper {
         width: 280px;
-        overflow: hidden;
     }
 
     .to-tu-words .intro-title {
