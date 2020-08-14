@@ -892,9 +892,13 @@ h5 {
 ==================================================*/
 
 footer {
+    /* height: 100px; */
     padding: 30px 0;
     text-align: center;
     background: #262626;
+    /* position: absolute;
+    bottom: 0;
+    left: 0; */
 }
 
 .copyright {
@@ -1343,6 +1347,8 @@ textarea:focus {
 
 .to-tu-intro-wrapper {
     width: 1300px;
+    height: 100vh;
+    /* position: relative; */
     margin: 150px auto 100px auto;
 }
 
