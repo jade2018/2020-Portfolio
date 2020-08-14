@@ -1347,7 +1347,8 @@ textarea:focus {
 
 .to-tu-intro-wrapper {
     width: 1300px;
-    height: 100vh;
+    /* height: inherit; */
+    height: 70vh;
     /* position: relative; */
     margin: 150px auto 100px auto;
 }
@@ -1587,6 +1588,7 @@ textarea:focus {
 
     .to-tu-intro-wrapper {
         width: 600px;
+        height: auto;
 
     }
 
