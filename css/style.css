@@ -1247,7 +1247,8 @@ footer img {
 
 
 
-.input-contact input[type="text"] {
+.input-contact input[type="email"],
+input[type="text"] {
     height: 100%;
     width: 100%;
     border: 0;
@@ -1263,6 +1264,7 @@ footer img {
 
 
 input[type="text"]:focus,
+input[type="email"]:focus,
 textarea:focus {
     outline: none;
     background-color: #4A4A4A;
