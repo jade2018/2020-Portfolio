@@ -35,8 +35,8 @@
 html,
 body {
     height: 100%;
-    font-family: 'arial', 'Poppins',
-        'sans-serif';
+    font-family: 'Arial',
+        'Poppins', 'sans-serif';
     line-height: 1.8;
     background-color: #333;
 }
@@ -1215,14 +1215,12 @@ footer img {
 /* contact page
 ==================================================*/
 
-.details-text i {
-    margin-right: 10px;
-}
+
 
 .textarea-contact {
     height: 200px;
     width: 100%;
-    border: solid 1px rgba(0, 0, 0, .1);
+    border-bottom: 1px solid #4A4A4A;
     position: relative;
 }
 
@@ -1239,27 +1237,15 @@ footer img {
     resize: none;
 }
 
-.textarea-contact>span {
-    position: absolute;
-    top: 20px;
-    left: 20px;
-    -webkit-transform: translateY(-50%);
-    transform: translateY(-50%);
-    font-size: 12px;
-    text-transform: uppercase;
-    color: #cdcdcd;
-    -webkit-transition: all .2s ease-in-out;
-    transition: all .2s ease-in-out;
-    z-index: 1;
-}
-
 .input-contact {
     height: 40px;
     width: 100%;
-    border: solid 1px rgba(0, 0, 0, .1);
+    border-bottom: 1px solid #4A4A4A;
     position: relative;
     margin-bottom: 30px;
 }
+
+
 
 .input-contact input[type="text"] {
     height: 100%;
@@ -1272,75 +1258,83 @@ footer img {
     z-index: 2;
     font-size: 14px;
     color: #9a9a9a;
+
 }
 
-.input-contact>span {
-    position: absolute;
-    top: 50%;
-    left: 20px;
-    -webkit-transform: translateY(-50%);
-    transform: translateY(-50%);
-    font-size: 12px;
-    text-transform: uppercase;
-    color: #cdcdcd;
-    -webkit-transition: all .2s ease-in-out;
-    transition: all .2s ease-in-out;
-    z-index: 1;
-}
 
-.input-contact>span.active,
-.textarea-contact>span.active {
-    color: #ffbf00;
-    font-size: 10px;
-    top: 0px;
-    left: 5px;
-    background-color: #fff;
-    padding: 5px
-}
-
-input:focus,
+input[type="text"]:focus,
 textarea:focus {
     outline: none;
+    background-color: #4A4A4A;
+    border-radius: 8px 8px 0 0;
 }
 
-.contact-info {
-    margin-top: 20px;
+.textarea-contact:focus {
+    border: 0;
 }
 
-.contact-info i {
-    height: 30px;
-    width: 30px;
-    display: inline-block;
-    background: #ffbf00;
-    text-align: center;
-    line-height: 33px;
-    margin-right: 10px;
-    color: #fff;
-    font-size: 21px;
-}
-
-.contact-info p {
-    display: inline-block;
-    margin-right: 20px;
-}
 
 .btn-box {
-    background: #ffbf00;
+    display: inline-block;
+    cursor: pointer;
     padding: 10px 50px;
-    border-radius: 0;
+    background-color: #A54AFF;
     color: #fff;
-    margin-top: 20px;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    font-weight: 500;
+    font-size: 16px;
+    border-radius: 30px;
+    text-decoration: none;
+    margin: 50px 0 0 0;
+    border: none;
+    transition: 0.3s;
+    -webkit-transition: 0.3s;
 }
 
-.btn-box:hover,
-.btn-box:focus {
-    background: #F5B700;
+.btn-box:hover {
+    background-color: #B468FF;
+    box-shadow: 0px 15px 20px rgba(147, 38, 255, 0.4);
     color: #fff;
+    transition: 0.3s;
+    -webkit-transition: 0.3s;
+    transform: translateY(-7px);
+    -webkit-transform: translateY(-7px);
+
 }
 
+.to-tu-form {
+    color: #fff;
+    margin: 100px auto;
+}
+
+.to-tu-form label {
+    font-family: 'Arial';
+    font-weight: normal;
+}
+
+.contact-animation {
+    width: 500px;
+    margin: 80px auto 0 auto;
+}
+
+@media(max-width:1024px) {
+    .to-tu-form {
+        width: 80%;
+        margin: 0 auto 50px auto;
+    }
+
+    .contact-animation {
+        margin: 0 auto;
+    }
+}
+
+@media(max-width:414px) {
+    .contact-animation {
+        width: 100%;
+    }
+
+    .to-tu-form {
+        width: 100%;
+    }
+}
 
 /* single project page
 ==================================================*/
@@ -1379,7 +1373,7 @@ textarea:focus {
 }
 
 .to-tu-words .intro-subtitle {
-    font-family: 'Pathway Gothic One';
+    font-family: 'Arial';
     padding: 10px 0 0 0;
     font-size: 16px;
 }
@@ -1393,7 +1387,9 @@ textarea:focus {
     font-size: 16px;
     border-radius: 30px;
     text-decoration: none;
-    margin: 50px 0 0 0;
+    margin-top: 50px;
+    transition: 0.3s;
+    -webkit-transition: 0.3s;
 }
 
 .to-tu-words .intro-btn:hover {
@@ -1401,6 +1397,10 @@ textarea:focus {
     box-shadow: 0px 15px 20px rgba(147, 38, 255, 0.4);
     color: #fff;
     transform: translateY(-7px);
+    -webkit-transform: translateY(-7px);
+    transition: 0.3s;
+    -webkit-transition: 0.3s;
+
 }
 
 
