@@ -892,13 +892,26 @@ h5 {
 ==================================================*/
 
 footer {
-    /* height: 100px; */
+    height: 85px;
     padding: 30px 0;
     text-align: center;
     background: #262626;
-    /* position: absolute;
+}
+
+.special-footer {
+    height: 85px;
+    width: 100%;
+    position: absolute;
     bottom: 0;
-    left: 0; */
+    left: 0;
+    text-align: center;
+    background: #262626;
+}
+
+@media(max-width:1024px) {
+    .special-footer {
+        position: static;
+    }
 }
 
 .copyright {
@@ -1346,31 +1359,28 @@ textarea:focus {
 ==================================================*/
 
 .to-tu-intro-wrapper {
-    width: 1300px;
-    /* height: inherit; */
-    height: 70vh;
-    /* position: relative; */
+    width: 100%;
+    min-height: 100%;
+    position: relative;
+    box-sizing: border-box;
     margin: 150px auto 100px auto;
 }
 
 .to-tu-words {
     text-align: left;
-    margin-top: 100px;
+    margin: 80px 0 0 10px;
 
 }
 
-.to-tu-words .item-1 {
-    text-align: right;
-}
 
 .to-tu-words .intro-title {
-    font-size: 56px;
+    font-size: 50px;
     font-weight: 600;
 }
 
 .to-tu-words .intro-subtitle {
     font-family: 'Pathway Gothic One';
-    padding: 20px 0 0 0;
+    padding: 10px 0 0 0;
     font-size: 16px;
 }
 
@@ -1395,9 +1405,9 @@ textarea:focus {
 
 
 .intro-animation {
-    width: 600px;
-}
+    width: 500px;
 
+}
 
 
 /* to-tu-intro about
@@ -1587,6 +1597,7 @@ textarea:focus {
 
 
     .to-tu-intro-wrapper {
+        position: static;
         width: 600px;
         height: auto;
 
@@ -1600,6 +1611,11 @@ textarea:focus {
         font-size: 16px;
     }
 
+    .intro-animation {
+        width: 500px;
+        margin: 0 auto;
+
+    }
 
 }
 
