@@ -988,7 +988,7 @@ footer img {
 }
 
 
-.innerpage-top-bar-1 {
+.innerpage-top-bar-graphic-1 {
     margin-top: 80px;
     padding: 200px 0 500px;
     background: url(../img/Graphic-Design/single-project-1/1.jpg);
@@ -997,7 +997,7 @@ footer img {
     background-position: center center;
 }
 
-.innerpage-top-bar-2 {
+.innerpage-top-bar-graphic-2 {
     margin-top: 80px;
     padding: 200px 0 500px;
     background: url(../img/Graphic-Design/single-project-2/1.jpg);
@@ -1007,7 +1007,7 @@ footer img {
 }
 
 
-.innerpage-top-bar-3 {
+.innerpage-top-bar-graphic-3 {
     margin-top: 80px;
     padding: 200px 0 500px;
     background: url(../img/Graphic-Design/single-project-3/1.jpg);
@@ -1016,7 +1016,7 @@ footer img {
     background-position: center center;
 }
 
-.innerpage-top-bar-4 {
+.innerpage-top-bar-graphic-4 {
     margin-top: 80px;
     padding: 200px 0 500px;
     background: url(../img/Graphic-Design/single-project-4/1.png);
@@ -1026,7 +1026,7 @@ footer img {
 }
 
 
-.innerpage-top-bar-5 {
+.innerpage-top-bar-graphic-5 {
     margin-top: 80px;
     padding: 200px 0 500px;
     background: url(../img/Graphic-Design/single-project-5/1.jpg);
@@ -1036,7 +1036,7 @@ footer img {
 }
 
 
-.innerpage-top-bar-6 {
+.innerpage-top-bar-graphic-6 {
     margin-top: 80px;
     padding: 200px 0 500px;
     background: url(../img/Graphic-Design/single-project-6/1.jpg);
@@ -1045,7 +1045,7 @@ footer img {
     background-position: center center;
 }
 
-.innerpage-top-bar-7 {
+.innerpage-top-bar-graphic-7 {
     margin-top: 80px;
     padding: 200px 0 500px;
     background: url(../img/Graphic-Design/single-project-7/1.jpg);
@@ -1054,7 +1054,7 @@ footer img {
     background-position: center center;
 }
 
-.innerpage-top-bar-8 {
+.innerpage-top-bar-graphic-8 {
     margin-top: 80px;
     padding: 200px 0 500px;
     background: url(../img/Graphic-Design/single-project-8/1.jpg);
@@ -1063,7 +1063,7 @@ footer img {
     background-position: center center;
 }
 
-.innerpage-top-bar-9 {
+.innerpage-top-bar-graphic-9 {
     margin-top: 80px;
     padding: 200px 0 500px;
     background: url(../img/Graphic-Design/single-project-9/1.jpg);
@@ -1073,7 +1073,7 @@ footer img {
 }
 
 
-.innerpage-top-bar-10 {
+.innerpage-top-bar-graphic-10 {
     margin-top: 80px;
     padding: 200px 0 500px;
     background: url(../img/Graphic-Design/single-project-10/1.png);
@@ -1082,7 +1082,7 @@ footer img {
     background-position: center center;
 }
 
-.innerpage-top-bar-11 {
+.innerpage-top-bar-graphic-11 {
     margin-top: 80px;
     padding: 200px 0 500px;
     background: url(../img/Graphic-Design/single-project-11/1.jpg);
@@ -1091,7 +1091,7 @@ footer img {
     background-position: center center;
 }
 
-.innerpage-top-bar-12 {
+.innerpage-top-bar-graphic-12 {
     margin-top: 80px;
     padding: 200px 0 500px;
     background: url(../img/Graphic-Design/single-project-12/1.png);
@@ -1101,7 +1101,7 @@ footer img {
 }
 
 
-.innerpage-top-bar-13 {
+.innerpage-top-bar-graphic-13 {
     margin-top: 80px;
     padding: 200px 0 500px;
     background: url(../img/Graphic-Design/single-project-13/1.jpg);
@@ -1111,7 +1111,7 @@ footer img {
 }
 
 
-.innerpage-top-bar-14 {
+.innerpage-top-bar-graphic-14 {
     margin-top: 80px;
     padding: 200px 0 500px;
     background: url(../img/Graphic-Design/single-project-14/1.png);
@@ -1121,7 +1121,7 @@ footer img {
 }
 
 
-.innerpage-top-bar-15 {
+.innerpage-top-bar-graphic-15 {
     margin-top: 80px;
     padding: 200px 0 500px;
     background: url(../img/Graphic-Design/single-project-15/1.jpg);
@@ -1130,24 +1130,63 @@ footer img {
     background-position: center center;
 }
 
+.innerpage-top-bar-web-1 {
+    margin-top: 80px;
+    padding: 200px 0 500px;
+    background: url(../img/Web-Design/single-project-1/1.png);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+}
+
+.innerpage-top-bar-web-2 {
+    margin-top: 80px;
+    padding: 200px 0 500px;
+    background: url(../img/Web-Design/single-project-2/1.png);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+}
+
+.innerpage-top-bar-web-3 {
+    margin-top: 80px;
+    padding: 200px 0 500px;
+    background: url(../img/Web-Design/single-project-3/1.png);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+}
+
+.innerpage-top-bar-web-4 {
+    margin-top: 80px;
+    padding: 200px 0 500px;
+    background: url(../img/Web-Design/single-project-4/1.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+}
 
 @media (max-width:1024px) {
 
-    .innerpage-top-bar-1,
-    .innerpage-top-bar-2,
-    .innerpage-top-bar-3,
-    .innerpage-top-bar-4,
-    .innerpage-top-bar-5,
-    .innerpage-top-bar-6,
-    .innerpage-top-bar-7,
-    .innerpage-top-bar-8,
-    .innerpage-top-bar-9,
-    .innerpage-top-bar-10,
-    .innerpage-top-bar-11,
-    .innerpage-top-bar-12,
-    .innerpage-top-bar-13,
-    .innerpage-top-bar-14,
-    .innerpage-top-bar-15 {
+    .innerpage-top-bar-graphic-1,
+    .innerpage-top-bar-graphic-2,
+    .innerpage-top-bar-graphic-3,
+    .innerpage-top-bar-graphic-4,
+    .innerpage-top-bar-graphic-5,
+    .innerpage-top-bar-graphic-6,
+    .innerpage-top-bar-graphic-7,
+    .innerpage-top-bar-graphic-,
+    .innerpage-top-bar-graphic-9,
+    .innerpage-top-bar-graphic-10,
+    .innerpage-top-bar-graphic-11,
+    .innerpage-top-bar-graphic-12,
+    .innerpage-top-bar-graphic-13,
+    .innerpage-top-bar-graphic-14,
+    .innerpage-top-bar-graphic-15,
+    .innerpage-top-bar-web-1,
+    .innerpage-top-bar-web-2,
+    .innerpage-top-bar-web-3,
+    .innerpage-top-bar-web-4 {
         padding-bottom: 200px;
         background-attachment: scroll;
 
@@ -1198,6 +1237,25 @@ footer img {
 
 .social-ul li a:hover {
     color: #888;
+}
+
+.link-icon {
+    text-align: right;
+}
+
+@media (max-width:768px) {
+    .link-icon {
+        text-align: left;
+    }
+}
+
+.fa-link {
+    font-size: 14px;
+    color: #fff;
+    background-color: #A54AFF;
+    border-radius: 50px;
+    padding: 10px;
+    margin-bottom: 6px;
 }
 
 @media (max-width:1024px) {
