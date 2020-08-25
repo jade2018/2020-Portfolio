@@ -438,11 +438,11 @@ h5 {
 /* mouse effect */
 
 .mouse {
-    position: absolute;
+    /* position: absolute; */
     width: 22px;
     height: 42px;
     bottom: 40px;
-    left: 50%;
+    /* left: 50%; */
     margin-left: -12px;
     border-radius: 15px;
     border: 2px solid #888;
@@ -901,7 +901,7 @@ footer {
 .special-footer {
     height: 85px;
     width: 100%;
-    position: absolute;
+    position: fixed;
     bottom: 0;
     left: 0;
     text-align: center;
@@ -1421,15 +1421,14 @@ textarea:focus {
 
 .to-tu-intro-wrapper {
     width: 100%;
-    min-height: 100%;
-    position: relative;
+    height: 500px;
     box-sizing: border-box;
     margin: 150px auto 100px auto;
 }
 
 .to-tu-words {
     text-align: left;
-    margin: 80px 0 0 10px;
+    margin: 110px 0 0 10px;
 
 }
 
@@ -1441,7 +1440,7 @@ textarea:focus {
 
 .to-tu-words .intro-subtitle {
     font-family: 'Arial';
-    padding: 10px 0 0 0;
+    padding-top: 10px;
     font-size: 16px;
 }
 
