@@ -902,14 +902,11 @@ footer img {
 .top-bar {
     color: #333;
     padding: 150px 0 150px;
-    /* background: url(../img/portfolio\ banner.svg); */
     background: -webkit-linear-gradient(rgba(24, 24, 24, 0.8), rgba(24, 24, 24, 0.8)),
-        url(../img/portfolio\ banner.svg);
-    background: linear-gradient(rgba(2, 2, 2, 0.8), rgba(2, 2, 2, 0.8)),
-        url(../img/portfolio\ banner.svg);
-    background-size: cover;
+        url(../img/inner-bg.jpg) no-repeat;
+    background-size: contain;
     background-attachment: fixed;
-    background-position: center center;
+    background-position: top;
     text-align: center;
 }
 
