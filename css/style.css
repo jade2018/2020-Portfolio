@@ -1434,7 +1434,8 @@ textarea:focus {
 }
 
 .about-intro {
-    margin: 200px auto;
+    color: #fff;
+    margin: 100px auto;
 }
 
 .about-title {
@@ -1445,12 +1446,44 @@ textarea:focus {
 .about-inner {
     font-family: 'arial';
     line-height: 2em;
+    font-size: 15px;
 
 }
 
 
-@media(max-width:991px) {
+.about-slogan {
+    font-size: 18px;
+    color: #FFF2D0;
+}
 
+.about-list-title {
+    margin-top: 50px;
+    margin-bottom: 20px;
+    font-size: 22px;
+    color: #CDCDCD;
+}
+
+.about-list-title span {
+    font-size: 18px;
+    padding-left: 10px;
+}
+
+.about-list {
+    list-style-type: none;
+    margin-bottom: 46px;
+}
+
+.about-list .time {
+    font-size: 14px;
+    color: #C78FFF;
+}
+
+.about-list .title {
+    font-size: 18px;
+    color: #FFF2D0;
+}
+
+@media(max-width:991px) {
     .about-animation {
         margin: 50px auto 50px;
     }
