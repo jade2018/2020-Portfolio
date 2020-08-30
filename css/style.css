@@ -1450,10 +1450,14 @@ textarea:focus {
 
 }
 
-
 .about-slogan {
     font-size: 18px;
     color: #FFF2D0;
+}
+
+.about-inner p span {
+    color: #FFF2D0;
+
 }
 
 .about-list-title {
