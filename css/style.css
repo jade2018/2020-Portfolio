@@ -1107,6 +1107,24 @@ footer img {
     background-position: center center;
 }
 
+.innerpage-top-bar-web-5 {
+    margin-top: 80px;
+    padding: 200px 0 500px;
+    background: url(../img/Web-Design/single-project-5/1.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+}
+
+.innerpage-top-bar-web-6 {
+    margin-top: 80px;
+    padding: 200px 0 500px;
+    background: url(../img/Web-Design/single-project-6/1.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+}
+
 @media (max-width:1024px) {
 
     .innerpage-top-bar-graphic-1,
@@ -1129,7 +1147,9 @@ footer img {
     .innerpage-top-bar-web-1,
     .innerpage-top-bar-web-2,
     .innerpage-top-bar-web-3,
-    .innerpage-top-bar-web-4 {
+    .innerpage-top-bar-web-4,
+    .innerpage-top-bar-web-5,
+    .innerpage-top-bar-web-6 {
         padding-bottom: 200px;
         background-attachment: scroll;
 
