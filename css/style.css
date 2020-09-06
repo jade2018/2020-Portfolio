@@ -1125,6 +1125,15 @@ footer img {
     background-position: center center;
 }
 
+.innerpage-top-bar-web-7 {
+    margin-top: 80px;
+    padding: 200px 0 500px;
+    background: url(../img/Web-Design/single-project-7/1.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+}
+
 @media (max-width:1024px) {
 
     .innerpage-top-bar-graphic-1,
@@ -1149,7 +1158,8 @@ footer img {
     .innerpage-top-bar-web-3,
     .innerpage-top-bar-web-4,
     .innerpage-top-bar-web-5,
-    .innerpage-top-bar-web-6 {
+    .innerpage-top-bar-web-6,
+    .innerpage-top-bar-web-7 {
         padding-bottom: 200px;
         background-attachment: scroll;
 
