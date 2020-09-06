@@ -1431,30 +1431,7 @@ textarea:focus {
     /* margin-bottom: 200px; */
 }
 
-.to-tu-words .intro-btn {
-    display: inline-block;
-    cursor: pointer;
-    padding: 10px 50px;
-    background-color: #A54AFF;
-    color: #fff;
-    font-size: 16px;
-    border-radius: 30px;
-    text-decoration: none;
-    margin-top: 50px;
-    transition: 0.3s;
-    -webkit-transition: 0.3s;
-}
 
-.to-tu-words .intro-btn:hover {
-    background-color: #B468FF;
-    box-shadow: 0px 15px 20px rgba(147, 38, 255, 0.4);
-    color: #fff;
-    transform: translateY(-7px);
-    -webkit-transform: translateY(-7px);
-    transition: 0.3s;
-    -webkit-transition: 0.3s;
-
-}
 
 
 .intro-animation img {
@@ -1497,7 +1474,7 @@ textarea:focus {
 
 .about-inner p span {
     color: #FFF2D0;
-
+    -webkit-color: #FFF2D0;
 }
 
 .about-list-title {
@@ -1592,13 +1569,36 @@ textarea:focus {
         letter-spacing: 2px;
         font-size: 15px;
         color: #fff;
-        margin-bottom: 5px;
+        margin-bottom: 6px;
+
     }
 
     .sm-words span {
         font-family: 'open sans';
         color: rgb(173, 173, 173);
         font-size: 12px;
+
+    }
+
+    .intro-btn {
+        display: inline-block;
+        cursor: pointer;
+        padding: 10px 50px;
+        background-color: #A54AFF;
+        color: #fff;
+        font-size: 14px;
+        border-radius: 30px;
+        text-decoration: none;
+        margin-top: 20px;
+        transition: 0.3s;
+        -webkit-transition: 0.3s;
+    }
+
+    .intro-btn:hover {
+        background-color: #B468FF;
+        box-shadow: 0px 15px 20px rgba(147, 38, 255, 0.4);
+        color: #fff;
+        text-decoration: none;
 
     }
 }
@@ -1717,11 +1717,6 @@ textarea:focus {
 
     .to-tu-words .intro-title {
         font-size: 26px;
-    }
-
-
-    .to-tu-words .intro-btn {
-        font-size: 14px;
     }
 
     .box-primary-nav-trigger .box-menu-text {
