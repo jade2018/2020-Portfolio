@@ -1507,6 +1507,9 @@ textarea:focus {
 .about-list .time {
     font-size: 14px;
     color: #C78FFF;
+    -webkit-text-fill-color: rgba(165, 74, 255, 1);
+    -webkit-opacity: 1;
+    color: rgba(165, 74, 255, 1);
 }
 
 .about-list .title {
