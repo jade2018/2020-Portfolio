@@ -1134,6 +1134,34 @@ footer img {
     background-position: center center;
 }
 
+.innerpage-top-bar-web-8 {
+    margin-top: 80px;
+    padding: 200px 0 500px;
+    background: url(../img/Web-Design/single-project-8/1.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+}
+
+.innerpage-top-bar-web-9 {
+    margin-top: 80px;
+    padding: 200px 0 500px;
+    background: url(../img/Web-Design/single-project-9/1.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+}
+
+.innerpage-top-bar-web-10 {
+    margin-top: 80px;
+    padding: 200px 0 500px;
+    background: url(../img/Web-Design/single-project-10/1.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+}
+
+
 @media (max-width:1024px) {
 
     .innerpage-top-bar-graphic-1,
@@ -1159,7 +1187,10 @@ footer img {
     .innerpage-top-bar-web-4,
     .innerpage-top-bar-web-5,
     .innerpage-top-bar-web-6,
-    .innerpage-top-bar-web-7 {
+    .innerpage-top-bar-web-7,
+    .innerpage-top-bar-web-8,
+    .innerpage-top-bar-web-9,
+    .innerpage-top-bar-web-10 {
         padding-bottom: 200px;
         background-attachment: scroll;
 
