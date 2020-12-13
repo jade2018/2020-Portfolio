@@ -60,4 +60,42 @@ $(window).load(function () {
             $(this).next("span").removeClass("active");
         }
     });
+
+
+
+    
+    let saveValue = localStorage.getItem("index");
+    console.log(saveValue);
+
+
+    if(saveValue===null){
+        console.log('first');
+        $('.li-item').eq(0).addClass('active');
+        let firstHeight = $('.portfolio_container').css("height");
+        console.log('onload',firstHeight);
+        localStorage.setItem('height',firstHeight);
+
+    }else if(saveValue==='0'){
+        console.log('all');
+        $('.li-item').removeClass('active');
+        $('.li-item').eq(0).addClass('active');
+        
+
+    }else{
+        $('.li-item').removeClass('active');
+        $('.li-item').eq(saveValue).addClass('active');
+        let inHeight = localStorage.getItem('height');
+        // console.log(inHeight);
+        // $('.portfolio_container').height(inHeight);
+    }
+
+
+    $('.li-item').on('click', function (e) {
+        e.preventDefault()
+        var index = $('.li-item').index(this);
+        let height = $('.portfolio_container').css("height");
+        localStorage.setItem('index',index);
+        localStorage.setItem('height',height);
+    });
+    // console.log('123');
 });
