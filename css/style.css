@@ -321,8 +321,8 @@ h5 {
     width: 100px;
     padding-left: 1em;
     background-color: transparent;
-    height: 30px;
-    line-height: 30px;
+    height: 50px;
+    line-height: 50px;
     right: 10px;
     top: 50%;
     bottom: auto;
@@ -433,10 +433,6 @@ h5 {
     }
 
 }
-
-
-
-
 
 
 
@@ -910,252 +906,9 @@ footer img {
     text-align: center;
 }
 
-
-.innerpage-top-bar-graphic-1 {
+.bg-cover {
     margin-top: 80px;
     padding: 200px 0 500px;
-    background: url(../img/Graphic-Design/single-project-1/1.jpg);
-    background-size: cover;
-    background-attachment: fixed;
-    background-position: center center;
-}
-
-.innerpage-top-bar-graphic-2 {
-    margin-top: 80px;
-    padding: 200px 0 500px;
-    background: url(../img/Graphic-Design/single-project-2/1.jpg);
-    background-size: cover;
-    background-attachment: fixed;
-    background-position: center center;
-}
-
-
-.innerpage-top-bar-graphic-3 {
-    margin-top: 80px;
-    padding: 200px 0 500px;
-    background: url(../img/Graphic-Design/single-project-3/1.jpg);
-    background-size: cover;
-    background-attachment: fixed;
-    background-position: center center;
-}
-
-.innerpage-top-bar-graphic-4 {
-    margin-top: 80px;
-    padding: 200px 0 500px;
-    background: url(../img/Graphic-Design/single-project-4/1.png);
-    background-size: cover;
-    background-attachment: fixed;
-    background-position: center center;
-}
-
-
-.innerpage-top-bar-graphic-5 {
-    margin-top: 80px;
-    padding: 200px 0 500px;
-    background: url(../img/Graphic-Design/single-project-5/1.jpg);
-    background-size: cover;
-    background-attachment: fixed;
-    background-position: center center;
-}
-
-
-.innerpage-top-bar-graphic-5-1 {
-    margin-top: 80px;
-    padding: 200px 0 500px;
-    background: url(../img/Graphic-Design/single-project-5-1/1.jpg);
-    background-size: cover;
-    background-attachment: fixed;
-    background-position: center center;
-}
-
-.innerpage-top-bar-graphic-5-2 {
-    margin-top: 80px;
-    padding: 200px 0 500px;
-    background: url(../img/Graphic-Design/single-project-5-2/1.jpg);
-    background-size: cover;
-    background-attachment: fixed;
-    background-position: center center;
-}
-
-.innerpage-top-bar-graphic-6 {
-    margin-top: 80px;
-    padding: 200px 0 500px;
-    background: url(../img/Graphic-Design/single-project-6/1.jpg);
-    background-size: cover;
-    background-attachment: fixed;
-    background-position: center center;
-}
-
-.innerpage-top-bar-graphic-7 {
-    margin-top: 80px;
-    padding: 200px 0 500px;
-    background: url(../img/Graphic-Design/single-project-7/1.jpg);
-    background-size: cover;
-    background-attachment: fixed;
-    background-position: center center;
-}
-
-.innerpage-top-bar-graphic-8 {
-    margin-top: 80px;
-    padding: 200px 0 500px;
-    background: url(../img/Graphic-Design/single-project-8/1.jpg);
-    background-size: cover;
-    background-attachment: fixed;
-    background-position: center center;
-}
-
-.innerpage-top-bar-graphic-9 {
-    margin-top: 80px;
-    padding: 200px 0 500px;
-    background: url(../img/Graphic-Design/single-project-9/1.jpg);
-    background-size: cover;
-    background-attachment: fixed;
-    background-position: center center;
-}
-
-
-.innerpage-top-bar-graphic-10 {
-    margin-top: 80px;
-    padding: 200px 0 500px;
-    background: url(../img/Graphic-Design/single-project-10/1.png);
-    background-size: cover;
-    background-attachment: fixed;
-    background-position: center center;
-}
-
-.innerpage-top-bar-graphic-11 {
-    margin-top: 80px;
-    padding: 200px 0 500px;
-    background: url(../img/Graphic-Design/single-project-11/1.jpg);
-    background-size: cover;
-    background-attachment: fixed;
-    background-position: center center;
-}
-
-.innerpage-top-bar-graphic-12 {
-    margin-top: 80px;
-    padding: 200px 0 500px;
-    background: url(../img/Graphic-Design/single-project-12/1.png);
-    background-size: cover;
-    background-attachment: fixed;
-    background-position: center center;
-}
-
-
-.innerpage-top-bar-graphic-13 {
-    margin-top: 80px;
-    padding: 200px 0 500px;
-    background: url(../img/Graphic-Design/single-project-13/1.jpg);
-    background-size: cover;
-    background-attachment: fixed;
-    background-position: center center;
-}
-
-
-.innerpage-top-bar-graphic-14 {
-    margin-top: 80px;
-    padding: 200px 0 500px;
-    background: url(../img/Graphic-Design/single-project-14/1.png);
-    background-size: cover;
-    background-attachment: fixed;
-    background-position: center center;
-}
-
-
-.innerpage-top-bar-graphic-15 {
-    margin-top: 80px;
-    padding: 200px 0 500px;
-    background: url(../img/Graphic-Design/single-project-15/1.jpg);
-    background-size: cover;
-    background-attachment: fixed;
-    background-position: center center;
-}
-
-.innerpage-top-bar-web-1 {
-    margin-top: 80px;
-    padding: 200px 0 500px;
-    background: url(../img/Web-Design/single-project-1/1.png);
-    background-size: cover;
-    background-attachment: fixed;
-    background-position: center center;
-}
-
-.innerpage-top-bar-web-2 {
-    margin-top: 80px;
-    padding: 200px 0 500px;
-    background: url(../img/Web-Design/single-project-2/1.png);
-    background-size: cover;
-    background-attachment: fixed;
-    background-position: center center;
-}
-
-.innerpage-top-bar-web-3 {
-    margin-top: 80px;
-    padding: 200px 0 500px;
-    background: url(../img/Web-Design/single-project-3/1.png);
-    background-size: cover;
-    background-attachment: fixed;
-    background-position: center center;
-}
-
-.innerpage-top-bar-web-4 {
-    margin-top: 80px;
-    padding: 200px 0 500px;
-    background: url(../img/Web-Design/single-project-4/1.jpg);
-    background-size: cover;
-    background-attachment: fixed;
-    background-position: center center;
-}
-
-.innerpage-top-bar-web-5 {
-    margin-top: 80px;
-    padding: 200px 0 500px;
-    background: url(../img/Web-Design/single-project-5/1.jpg);
-    background-size: cover;
-    background-attachment: fixed;
-    background-position: center center;
-}
-
-.innerpage-top-bar-web-6 {
-    margin-top: 80px;
-    padding: 200px 0 500px;
-    background: url(../img/Web-Design/single-project-6/1.jpg);
-    background-size: cover;
-    background-attachment: fixed;
-    background-position: center center;
-}
-
-.innerpage-top-bar-web-7 {
-    margin-top: 80px;
-    padding: 200px 0 500px;
-    background: url(../img/Web-Design/single-project-7/1.jpg);
-    background-size: cover;
-    background-attachment: fixed;
-    background-position: center center;
-}
-
-.innerpage-top-bar-web-8 {
-    margin-top: 80px;
-    padding: 200px 0 500px;
-    background: url(../img/Web-Design/single-project-8/1.jpg);
-    background-size: cover;
-    background-attachment: fixed;
-    background-position: center center;
-}
-
-.innerpage-top-bar-web-9 {
-    margin-top: 80px;
-    padding: 200px 0 500px;
-    background: url(../img/Web-Design/single-project-9/1.jpg);
-    background-size: cover;
-    background-attachment: fixed;
-    background-position: center center;
-}
-
-.innerpage-top-bar-web-10 {
-    margin-top: 80px;
-    padding: 200px 0 500px;
-    background: url(../img/Web-Design/single-project-10/1.jpg);
     background-size: cover;
     background-attachment: fixed;
     background-position: center center;
@@ -1164,33 +917,7 @@ footer img {
 
 @media (max-width:1024px) {
 
-    .innerpage-top-bar-graphic-1,
-    .innerpage-top-bar-graphic-2,
-    .innerpage-top-bar-graphic-3,
-    .innerpage-top-bar-graphic-4,
-    .innerpage-top-bar-graphic-5,
-    .innerpage-top-bar-graphic-5-1,
-    .innerpage-top-bar-graphic-5-2,
-    .innerpage-top-bar-graphic-6,
-    .innerpage-top-bar-graphic-7,
-    .innerpage-top-bar-graphic-8,
-    .innerpage-top-bar-graphic-9,
-    .innerpage-top-bar-graphic-10,
-    .innerpage-top-bar-graphic-11,
-    .innerpage-top-bar-graphic-12,
-    .innerpage-top-bar-graphic-13,
-    .innerpage-top-bar-graphic-14,
-    .innerpage-top-bar-graphic-15,
-    .innerpage-top-bar-web-1,
-    .innerpage-top-bar-web-2,
-    .innerpage-top-bar-web-3,
-    .innerpage-top-bar-web-4,
-    .innerpage-top-bar-web-5,
-    .innerpage-top-bar-web-6,
-    .innerpage-top-bar-web-7,
-    .innerpage-top-bar-web-8,
-    .innerpage-top-bar-web-9,
-    .innerpage-top-bar-web-10 {
+    .bg-scroll {
         padding-bottom: 200px;
         background-attachment: scroll;
 
