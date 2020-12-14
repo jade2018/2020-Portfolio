@@ -63,39 +63,32 @@ $(window).load(function () {
 
 
 
-    
+    //宣告一個index值
     let saveValue = localStorage.getItem("index");
-    console.log(saveValue);
 
 
     if(saveValue===null){
-        console.log('first');
+        // console.log('first');
         $('.li-item').eq(0).addClass('active');
-        let firstHeight = $('.portfolio_container').css("height");
-        console.log('onload',firstHeight);
-        localStorage.setItem('height',firstHeight);
+
 
     }else if(saveValue==='0'){
         console.log('all');
+        //清除所有active class 
         $('.li-item').removeClass('active');
-        $('.li-item').eq(0).addClass('active');
+        //+入active class 
+        $('.li-item').eq(0).click();
         
-
     }else{
         $('.li-item').removeClass('active');
-        $('.li-item').eq(saveValue).addClass('active');
-        let inHeight = localStorage.getItem('height');
-        // console.log(inHeight);
-        // $('.portfolio_container').height(inHeight);
+        $('.li-item').eq(saveValue).click();
     }
 
-
+    //紀錄現在哪一個
     $('.li-item').on('click', function (e) {
         e.preventDefault()
-        var index = $('.li-item').index(this);
-        let height = $('.portfolio_container').css("height");
-        localStorage.setItem('index',index);
-        localStorage.setItem('height',height);
+        let clickIndex = $('.li-item').index(this);
+        // localStorage.setItem(key,value);
+        localStorage.setItem('index',clickIndex);
     });
-    // console.log('123');
 });
