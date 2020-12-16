@@ -1522,3 +1522,21 @@ textarea:focus {
         padding-top: 0;
     }
 }
+
+.link-icon-2 {
+    margin-bottom: 5px;
+}
+
+.link-icon-2 a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+}
+
+.link-icon-2 a:hover {
+    color: rgb(146, 146, 146);
+}
+
+.link-icon-2 .fa-link {
+    margin-right: 12px;
+}
