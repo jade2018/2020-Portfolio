@@ -1266,7 +1266,7 @@ textarea:focus {
     font-size: 14px;
     color: #C78FFF;
     -webkit-text-fill-color: rgba(165, 74, 255, 1);
-    -webkit-opacity: 1;
+    opacity: 1;
     color: rgba(165, 74, 255, 1);
 }
 
